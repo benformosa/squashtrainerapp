@@ -9,5 +9,10 @@
         "thumbnail": "squash.png",
         "shortDescription": "Target outline, lifting ball. Bounce before back wall",
         "description": "Practice lifting the ball to get out of trouble by targeting the outline and having the ball bounce before the back wall. Try to avoid hitting the side wall."
+    },
+    {
+        "name": "Forehand Volley",
+        "shortDescription": "Do this",
+        "description": "do this more"
     }
 ]
