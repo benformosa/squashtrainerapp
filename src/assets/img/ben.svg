@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="128" xmlns="http://www.w3.org/2000/svg" height="128">
+ <g id="layer1" fill-rule="evenodd" stroke="#000" fill="#fff">
+  <g stroke-linejoin="round" stroke-width="6">
+   <path id="path7583" d="m16 48h80c0 24-3.161 40-24 56h-32c-19.691-14.074-24-32-24-56z"/>
+   <path id="path7585" d="m8 96h96.335c-8.3347 8-8.3347 12.662-28.9 15.643h-38.534c-20.9-2.443-20.9-7.6432-28.9-15.643z"/>
+  </g>
+  <g stroke-linecap="round">
+   <path id="path7589" stroke-linejoin="round" stroke-width="6" d="m121.81 73.612a12.914 17.14 0 1 1 -25.827 -8.8046 12.914 17.14 0 1 1 25.827 8.8046z"/>
+   <g stroke-width="4">
+    <path id="path7593" d="m47.628 7.4419c15.257 15.918-14.094 16.96 0 33.24"/>
+    <path id="path7595" d="m57.55 7.938c15.257 15.918-14.094 16.96 0 33.24"/>
+    <path id="path7597" d="m68.465 7.938c15.257 15.918-14.094 16.96 0 33.24"/>
+   </g>
+  </g>
+ </g>
+</svg>

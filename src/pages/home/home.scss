@@ -1,3 +1,14 @@
 page-home {
-
+    .logo {
+        font-size: 300%;
+        text-align: center;
+        font-weight: bold;
+    }
+    img.logo {
+        display: block;
+        width: 50%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
