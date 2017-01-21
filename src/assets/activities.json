@@ -1,6 +1,6 @@
 [{
         "name": "Forehand Drives",
-        "shortDescription": "Hit above line, bounce before service box.",
+        "shortDescription": "Hit above line, bounce before service box",
         "description": "Practice hitting consistent length by targeting the cut line having the ball bounce between the service box and back wall. Try to avoid hitting the side wall."
     },
     {
@@ -10,7 +10,32 @@
     },
     {
         "name": "Forehand Volley",
-        "shortDescription": "Do this",
-        "description": "do this more"
+        "shortDescription": "Volley from the service line",
+        "description": "Stand on the service line to volley the ball to yourself. Target the cut line and aim for the ball to travel in a flat trajectory."
+    },
+    {
+        "name": "Forehand Drop",
+        "shortDescription": "something",
+        "description": "something more"
+    },
+   {
+        "name": "Backhand Drives",
+        "shortDescription": "Hit above line, bounce before service box",
+        "description": "Practice hitting consistent length by targeting the cut line having the ball bounce between the service box and back wall. Try to avoid hitting the side wall."
+    },
+    {
+        "name": "Backhand Defense",
+        "shortDescription": "Target outline, lifting ball. Bounce before back wall",
+        "description": "Practice lifting the ball to get out of trouble by targeting the outline and having the ball bounce before the back wall. Try to avoid hitting the side wall."
+    },
+    {
+        "name": "Backhand Volley",
+        "shortDescription": "Volley from the service line",
+        "description": "Stand on the service line to volley the ball to yourself. Target the cut line and aim for the ball to travel in a flat trajectory."
+    },
+    {
+        "name": "Backhand Drop",
+        "shortDescription": "something",
+        "description": "something more"
     }
 ]
