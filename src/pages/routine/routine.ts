@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
-import { Activity } from '../../app/activity.class';
-import { Routine } from '../../app/routine.class';
-import { RoutineItem } from '../../app/routineitem.class';
+import { Activity } from '../../app/classes/activity.class';
+import { Routine } from '../../app/classes/routine.class';
+import { RoutineItem } from '../../app/classes/routineitem.class';
 import { ActivitiesService } from '../../app/services/activities.service';
 import { RoutineService } from '../../app/services/routine.service';
 
