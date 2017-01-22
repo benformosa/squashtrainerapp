@@ -4,13 +4,15 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { AboutPage } from '../pages/about/about';
 import { RoutinePage } from '../pages/routine/routine';
+import { ActivityLibraryPage } from '../pages/activityLibrary/activityLibrary';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     AboutPage,
-    RoutinePage
+    RoutinePage,
+    ActivityLibraryPage 
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -20,7 +22,8 @@ import { RoutinePage } from '../pages/routine/routine';
     MyApp,
     HomePage,
     AboutPage,
-    RoutinePage
+    RoutinePage,
+    ActivityLibraryPage 
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]
 })

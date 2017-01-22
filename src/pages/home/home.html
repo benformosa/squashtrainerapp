@@ -6,17 +6,13 @@
     <img class="logo" src="../../assets/img/squash_ball.svg">
     <ion-buttons padding>
         <button ion-button large block icon-left color="secondary" [navPush]="routinePage">
-      <ion-icon name="paper-plane"></ion-icon>
-      Start MyRoutine
-    </button>
-        <button ion-button large icon-left block color="secondary" [navPush]="routinePage">
-      <ion-icon name="menu"></ion-icon>
-      View all routines
-    </button>
-        <button ion-button large icon-left block color="secondary" [navPush]="routinePage">
-      <ion-icon name="add"></ion-icon>
-      New Routine
-    </button>
+            <ion-icon name="paper-plane"></ion-icon>
+            Start MyRoutine
+        </button>
+        <button ion-button large icon-left block color="secondary" [navPush]="activityLibraryPage">
+            <ion-icon name="menu"></ion-icon>
+            View all activities
+        </button>
     </ion-buttons>
 </ion-content>
 
@@ -25,9 +21,9 @@
         <ion-label>© Formosa 2017</ion-label>
         <ion-buttons end>
             <button ion-button icon-left [navPush]="aboutPage">
-          <ion-icon name="at"></ion-icon>
-          About
-      </button>
+                <ion-icon name="at"></ion-icon>
+                About
+            </button>
         </ion-buttons>
     </ion-toolbar>
 </ion-footer>

@@ -1,0 +1,33 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>Activity Library</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <ion-list>
+        <ion-card *ngFor="let activity of activities">
+            <ion-card-header>
+                {{activity.name}}
+            </ion-card-header>
+            <ion-card-content>
+                {{activity.description}}
+            </ion-card-content>
+
+            <ion-row>
+                <ion-col center text-center>
+                    <ion-note>
+                        00:05
+                    </ion-note>
+                </ion-col>
+                <ion-col>
+                    <button ion-button icon-right round small>
+                        <div>Play audio</div>
+                        <ion-icon name="paper-plane"></ion-icon>
+                    </button>
+                </ion-col>
+            </ion-row>
+
+        </ion-card>
+    </ion-list>
+</ion-content>
