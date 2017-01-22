@@ -1,20 +1,33 @@
 <ion-header>
-    <ion-navbar>
-        <ion-title>
-            Current Routine
-        </ion-title>
-    </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-    <ion-list>
-        <ion-item *ngFor="let item of items" (click)="itemSelected(item)">
-            <ion-thumbnail item-left>
-                <img src="assets/thumbnail/{{item.thumbnail}}">
-            </ion-thumbnail>
-            <h2>{{item.name}}</h2>
-            <p>{{item.shortDescription}}</p>
-            {{item.time}}
-        </ion-item>
-    </ion-list>
+  <h1 class="logo">Squash Trainer</h1>
+  <img class="logo" src="../../assets/img/squash_ball.svg">
+  <ion-buttons padding>
+    <button ion-button large block icon-left color="secondary" [navPush]="routinePage">
+      <ion-icon name="paper-plane"></ion-icon>
+      Start MyRoutine
+    </button>
+    <button ion-button large icon-left block color="secondary" [navPush]="routinePage">
+      <ion-icon name="menu"></ion-icon>
+      View all routines
+    </button>
+    <button ion-button large icon-left block color="secondary" [navPush]="routinePage">
+      <ion-icon name="add"></ion-icon>
+      New Routine
+    </button>
+    </ion-buttons>
 </ion-content>
+
+<ion-footer>
+    <ion-toolbar>
+      <ion-title small>© Formosa 2017</ion-title>
+      <ion-buttons end>
+        <button ion-button icon-left [navPush]="aboutPage">
+          <ion-icon name="at"></ion-icon>
+          About
+      </button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-footer>

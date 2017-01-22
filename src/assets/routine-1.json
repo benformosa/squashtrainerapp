@@ -1,0 +1,14 @@
+{
+    "id": "MyRoutine",
+    "name": "My Routine",
+    "activities": [
+        {
+            "id": "fh-drive",
+            "time": 60
+        },
+        {
+            "id": "fh-defense",
+            "time": 120
+        }
+    ]
+}
