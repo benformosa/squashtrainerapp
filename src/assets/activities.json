@@ -1,44 +1,79 @@
-[
-    {
+[{
+        "name": "Forehand Drive",
         "id": "fh-drive",
-        "name": "Forehand Drives",
         "shortDescription": "Hit above line, bounce before service box",
         "description": "Practice hitting consistent length by targeting the cut line having the ball bounce between the service box and back wall. Try to avoid hitting the side wall."
     },
     {
-        "id": "fh-defense",
-        "name": "Forehand Defense",
-        "shortDescription": "Target outline, lifting ball. Bounce before back wall",
+        "name": "Forehand Defence",
+        "id": "fh-defence",
+        "shortDescription": "Target the outline, lifting ball. Bounce before back wall",
         "description": "Practice lifting the ball to get out of trouble by targeting the outline and having the ball bounce before the back wall. Try to avoid hitting the side wall."
     },
     {
         "name": "Forehand Volley",
+        "id": "fh-volley",
         "shortDescription": "Volley from the service line",
         "description": "Stand on the service line to volley the ball to yourself. Target the cut line and aim for the ball to travel in a flat trajectory."
     },
     {
         "name": "Forehand Drop",
-        "shortDescription": "something",
-        "description": "something more"
+        "id": "fh-drop",
+        "shortDescription": "Drop the ball",
+        "description": "At the front of the court, drop the ball to yourself. Get your racquet back between shots and avoid the side wall."
     },
-    {
-        "name": "Backhand Drives",
+   {
+        "name": "Backhand Drive",
+        "id": "bh-drive",
         "shortDescription": "Hit above line, bounce before service box",
         "description": "Practice hitting consistent length by targeting the cut line having the ball bounce between the service box and back wall. Try to avoid hitting the side wall."
     },
     {
-        "name": "Backhand Defense",
-        "shortDescription": "Target outline, lifting ball. Bounce before back wall",
+        "name": "Backhand Defence",
+        "id": "bh-defence",
+        "shortDescription": "Target the outline, lifting ball. Bounce before back wall",
         "description": "Practice lifting the ball to get out of trouble by targeting the outline and having the ball bounce before the back wall. Try to avoid hitting the side wall."
     },
     {
         "name": "Backhand Volley",
+        "id": "bh-volley",
         "shortDescription": "Volley from the service line",
         "description": "Stand on the service line to volley the ball to yourself. Target the cut line and aim for the ball to travel in a flat trajectory."
     },
     {
         "name": "Backhand Drop",
-        "shortDescription": "something",
-        "description": "something more"
+        "id": "bh-drop",
+        "shortDescription": "Drop the ball",
+        "description": "At the front of the court, drop the ball to yourself. Get your racquet back between shots and avoid the side wall."
+    },
+    {
+        "name": "Warm Up",
+        "id": "warm-up",
+        "shortDescription": "Warm up your body and the ball",
+        "description": "Run through your  warm-up routine to get you ready for practice."
+    },
+    {
+        "name": "Cool Down",
+        "id": "Cool-down",
+        "shortDescription": "Cool down your muscles to avoid injury",
+        "description": "Run through your cool-down routine to help your recovery."
+    },
+    {
+        "name": "Freestyle",
+        "id": "freestyle",
+        "shortDescription": "Keep the ball alive",
+        "description": "Keep the ball alive for as long as possible. Try out unorthodox shorts and keep adjusting by staying light on your feet.."
+    },
+    {
+        "name": "Court Sprints",
+        "id": "court-sprints",
+        "shortDescription": "Cover the court in 7 strides",
+        "description": "Improve your fitness and court coverage. Set the number of sprints and the number of sets."
+    },
+    {
+        "name": "Ghosting",
+        "id": "ghosting",
+        "shortDescription": "Focus on your movement",
+        "description": "Practice your movement and court coverage. Start on the T and cover the back, middle, and front of the court on the forehand and backhand side."
     }
 ]
