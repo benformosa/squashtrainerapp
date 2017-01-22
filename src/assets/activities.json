@@ -1,41 +1,49 @@
 [{
         "name": "Forehand Drive",
+        "id": "fh-drive",
         "shortDescription": "Hit above line, bounce before service box",
         "description": "Practice hitting consistent length by targeting the cut line having the ball bounce between the service box and back wall. Try to avoid hitting the side wall."
     },
     {
         "name": "Forehand Defense",
+        "id": "fh-defence",
         "shortDescription": "Target outline, lifting ball. Bounce before back wall",
         "description": "Practice lifting the ball to get out of trouble by targeting the outline and having the ball bounce before the back wall. Try to avoid hitting the side wall."
     },
     {
         "name": "Forehand Volley",
+        "id": "fh-volley",
         "shortDescription": "Volley from the service line",
         "description": "Stand on the service line to volley the ball to yourself. Target the cut line and aim for the ball to travel in a flat trajectory."
     },
     {
         "name": "Forehand Drop",
-        "shortDescription": "something",
-        "description": "something more"
+        "id": "fh-drop",
+        "shortDescription": "Drop the ball",
+        "description": "At the front of the court, drop the ball to yourself. Get your racquet back between shots and avoid the side wall."
     },
    {
         "name": "Backhand Drive",
+        "id": "bh-drive",
         "shortDescription": "Hit above line, bounce before service box",
         "description": "Practice hitting consistent length by targeting the cut line having the ball bounce between the service box and back wall. Try to avoid hitting the side wall."
     },
     {
         "name": "Backhand Defense",
+        "id": "bh-defence",
         "shortDescription": "Target outline, lifting ball. Bounce before back wall",
         "description": "Practice lifting the ball to get out of trouble by targeting the outline and having the ball bounce before the back wall. Try to avoid hitting the side wall."
     },
     {
         "name": "Backhand Volley",
+        "id": "bh-volley",
         "shortDescription": "Volley from the service line",
         "description": "Stand on the service line to volley the ball to yourself. Target the cut line and aim for the ball to travel in a flat trajectory."
     },
     {
         "name": "Backhand Drop",
-        "shortDescription": "something",
-        "description": "something more"
+        "id": "bh-drop",
+        "shortDescription": "Drop the ball",
+        "description": "At the front of the court, drop the ball to yourself. Get your racquet back between shots and avoid the side wall."
     }
 ]
