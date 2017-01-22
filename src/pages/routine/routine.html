@@ -8,13 +8,20 @@
 
 <ion-content padding>
     <ion-list>
-        <ion-item *ngFor="let item of items" (click)="itemSelected(item)">
-            <ion-thumbnail item-left>
-                <img src="assets/thumbnail/{{item.thumbnail}}">
-            </ion-thumbnail>
-            <h2>{{item.name}}</h2>
-            <p>{{item.shortDescription}}</p>
-            <ion-note item-right>{{item.time}}</ion-note>
+        <ion-item *ngFor="let activity of activities">
+            <h2>{{activity.name}}</h2>
+            <p>{{activity.shortDescription}}</p>
+            <ion-note item-right>{{activity.time}}</ion-note>
         </ion-item>
     </ion-list>
 </ion-content>
+
+<ion-footer>
+    <ion-toolbar color="secondary">
+        <ion-buttons end>
+            <button ion-button icon-left>
+          <ion-icon name="plane"></ion-icon>
+      </button>
+        </ion-buttons>
+    </ion-toolbar>
+</ion-footer>

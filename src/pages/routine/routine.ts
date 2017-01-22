@@ -1,41 +1,52 @@
 import { Component } from '@angular/core';
+//import { Http, Response } from '@angular/http';
 import { NavController, NavParams } from 'ionic-angular';
+import { ActivitiesService } from '../../app/services/activities.service';
+import { RoutineService } from '../../app/services/routine.service';
 
-/*
-  Generated class for the Routine page.
-
-  See http://ionicframework.com/docs/v2/components/#navigation for more info on
-  Ionic pages and navigation.
-*/
 @Component({
   selector: 'page-routine',
-  templateUrl: 'routine.html'
+  templateUrl: 'routine.html',
+  providers: [
+    ActivitiesService,
+    RoutineService
+  ]
 })
 export class RoutinePage {
-  items: any[];
+  private error: Error;
+  activities: Activity[];
+  routine: Routine;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
-    this.items = [];
-    this.items.push({
-        id: 1,
-        name: "Forehand drives",
-        thumbnail: "squash.png",
-        shortDescription: "Hit above line, bounce before service box.",
-        description: "Practice hitting consistent length by targeting the cut line having the ball bounce between the service box and back wall. Try to avoid hitting the side wall.",
-        time: "00:01:00"
+  constructor(
+    public navCtrl: NavController,
+    public navParams: NavParams,
+    private activitiesService: ActivitiesService,
+    private routineService: RoutineService
+  ) {
+    this.activitiesService.getActivities().subscribe(activities => {
+      this.activities = activities;
     });
-    this.items.push({
-        id: 2,
-        name: "Forehand defense",
-        thumbnail: "squash.png",
-        shortDescription: "Target outline, lifting ball. Bounce before back wall",
-        description: "Practice lifting the ball to get out of trouble by targeting the outline and having the ball bounce before the back wall. Try to avoid hitting the side wall.",
-        time: "00:03:33"
+
+    this.routineService.getRoutine('../../assets/routine-1.json').subscribe(routine => {
+      this.routine = routine;
     });
   }
+}
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad RoutinePage');
-  }
+class Activity {
+  id: string;
+  name: string;
+  shortDescription: string;
+  description: string;
+}
 
+class Routine {
+  id: string;
+  name: string;
+  activities: RoutineItem[];
+}
+
+class RoutineItem {
+  id: number;
+  time: number;
 }
