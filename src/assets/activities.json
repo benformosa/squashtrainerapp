@@ -75,5 +75,11 @@
         "id": "ghosting",
         "shortDescription": "Focus on your movement",
         "description": "Practice your movement and court coverage. Start on the T and cover the back, middle, and front of the court on the forehand and backhand side."
+    },
+     {
+        "name": "Rest",
+        "id": "rest",
+        "shortDescription": "Catch your breath",
+        "description": "Catch your breath, towel off and have a drink if you need."
     }
 ]
