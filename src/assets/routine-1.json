@@ -1,14 +1,62 @@
 {
-    "id": "MyRoutine",
-    "name": "My Routine",
+    "id": "all-round-routine",
+    "name": "All Round Routine",
     "activities": [
         {
+            "id": "warm-up",
+            "time": 300
+        },
+        {
             "id": "fh-drive",
-            "time": 60
+            "time": 300
         },
         {
             "id": "fh-defense",
+            "time": 300
+        },
+        {
+            "id": "bh-drive",
+            "time": 300
+        },
+        {
+            "id": "bh-defence",
+            "time": 300
+        },
+        {
+            "id": "rest",
             "time": 120
+        },
+        {
+            "id": "fh-volley",
+            "time": 300
+        },
+        {
+            "id": "bh-volley",
+            "time": 300
+        },
+        {
+            "id": "fh-drop",
+            "time": 120
+        },
+        {
+            "id": "bh-drop",
+            "time": 120
+        },
+        {
+            "id": "rest",
+            "time": 120
+        },
+        {
+            "id": "freestyle",
+            "time": 600
+        },
+        {
+            "id": "court-sprints",
+            "time": 120
+        },
+        {
+            "id": "cool-down",
+            "time": 300
         }
     ]
 }

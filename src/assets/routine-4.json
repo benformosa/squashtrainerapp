@@ -1,0 +1,38 @@
+{
+    "id": "frount-court-routine",
+    "name": "Front Court Routine",
+    "activities": [
+        {
+            "id": "warm-up",
+            "time": 300
+        },
+        {
+            "id": "fh-volley",
+            "time": 300
+        },
+        {
+            "id": "bh-volley",
+            "time": 300
+        },
+        {
+            "id": "fh-drop",
+            "time": 120
+        },
+        {
+            "id": "bh-drop",
+            "time": 120
+        },             
+        {
+            "id": "freestyle",
+            "time": 600
+        },
+        {
+            "id": "ghosting",
+            "time": 120
+        },
+        {
+            "id": "cool-down",
+            "time": 240
+        }
+    ]
+}

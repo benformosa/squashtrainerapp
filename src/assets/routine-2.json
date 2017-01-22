@@ -1,0 +1,34 @@
+{
+    "id": "forehand-routine",
+    "name": "Forehand Routine",
+    "activities": [
+        {
+            "id": "warm-up",
+            "time": 300
+        },
+        {
+            "id": "fh-drive",
+            "time": 300
+        },
+        {
+            "id": "fh-defense",
+            "time": 300
+        },
+               {
+            "id": "fh-volley",
+            "time": 300
+        },
+               {
+            "id": "fh-drop",
+            "time": 180
+        },       
+        {
+            "id": "court-sprints",
+            "time": 180
+        },
+        {
+            "id": "cool-down",
+            "time": 240
+        }
+    ]
+}
