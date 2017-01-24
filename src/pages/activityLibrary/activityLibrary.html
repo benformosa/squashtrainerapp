@@ -5,6 +5,10 @@
 </ion-header>
 
 <ion-content padding>
+    <ion-card-content>
+        Test the audio cue for each activity.
+    </ion-card-content>
+
     <ion-list>
         <ion-card *ngFor="let activity of activities">
             <ion-card-header>
@@ -13,21 +17,13 @@
             <ion-card-content>
                 {{activity.description}}
             </ion-card-content>
-
             <ion-row>
-                <ion-col center text-center>
-                    <ion-note>
-                        00:05
-                    </ion-note>
-                </ion-col>
-                <ion-col>
-                    <button ion-button icon-right round small>
-                        <div>Play audio</div>
-                        <ion-icon name="paper-plane"></ion-icon>
+                <ion-col offset-75>
+                    <button ion-button icon-only outline round small (click)="playSound(activity)">
+                        <ion-icon name="play"></ion-icon>
                     </button>
                 </ion-col>
             </ion-row>
-
         </ion-card>
     </ion-list>
 </ion-content>

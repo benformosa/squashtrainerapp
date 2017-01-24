@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
+import { MediaPlugin } from 'ionic-native';
 import { Activity } from '../../app/classes/activity.class';
 import { ActivitiesService } from '../../app/services/activities.service';
 
@@ -22,5 +23,13 @@ export class ActivityLibraryPage {
     this.activitiesService.getActivities().subscribe(activities => {
       this.activities = activities;
     });
+  }
+
+  playSound(activity: Activity) {
+    var path = '../../assets/audio/' + activity.id + '.mp3';
+    var file = new MediaPlugin(path);
+
+    file.play();
+    file.release();
   }
 }
