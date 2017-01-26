@@ -4,7 +4,7 @@ import { Activity } from '../../app/classes/activity.class';
 import { Routine } from '../../app/classes/routine.class';
 import { RoutineItem } from '../../app/classes/routineitem.class';
 import { ActivitiesService } from '../../app/services/activities.service';
-import { RoutineService } from '../../app/services/routine.service';
+import { RoutineOutlineService } from '../../app/services/routineOutline.service';
 
 @Component({
   selector: 'page-routine',
@@ -14,11 +14,10 @@ import { RoutineService } from '../../app/services/routine.service';
     Routine,
     RoutineItem,
     ActivitiesService,
-    RoutineService
+    RoutineOutlineService
   ]
 })
 export class RoutinePage {
-  private error: Error;
   activities: Activity[];
   routine: Routine;
 
@@ -26,13 +25,13 @@ export class RoutinePage {
     public navCtrl: NavController,
     public navParams: NavParams,
     private activitiesService: ActivitiesService,
-    private routineService: RoutineService
+    private routineOutlineService: RoutineOutlineService
   ) {
     this.activitiesService.getActivities().subscribe(activities => {
       this.activities = activities;
     });
 
-    this.routineService.getRoutine('../../assets/routine-1.json', this.activities).subscribe(routine => {
+    this.routineOutlineService.getRoutineOutline('assets/routine-1.json').subscribe(routine => {
       this.routine = routine;
     });
   }

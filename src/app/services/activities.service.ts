@@ -4,7 +4,7 @@ import 'rxjs/add/operator/map';
 
 @Injectable()
 export class ActivitiesService {
-    private activityUrl = '../../assets/activities.json';
+    private activityUrl = 'assets/activities.json';
     constructor(private http: Http) { }
 
     getActivities() {

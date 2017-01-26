@@ -26,7 +26,7 @@ export class ActivityLibraryPage {
   }
 
   playSound(activity: Activity) {
-    var path = '../../assets/audio/' + activity.id + '.mp3';
+    var path = 'assets/audio/' + activity.id + '.mp3';
     var file = new MediaPlugin(path);
 
     file.play();
