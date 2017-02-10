@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
-import {AboutPage} from '../about/about';
-import {RoutinePage} from '../routine/routine';
+import { AboutPage } from '../about/about';
+import { RoutinePage } from '../routine/routine';
 import { ActivityLibraryPage } from '../activityLibrary/activityLibrary';
 
 @Component({
@@ -14,5 +14,11 @@ export class HomePage {
   routinePage = RoutinePage;
   activityLibraryPage = ActivityLibraryPage;
 
-  constructor(public navCtrl: NavController) {}
+  constructor(public navCtrl: NavController) { }
+
+  pushRoutine(url: string) {
+    this.navCtrl.push(RoutinePage, {
+      routineUrl: url
+    });
+  }
 }
